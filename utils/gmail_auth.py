@@ -30,6 +30,7 @@ def get_gmail_service():
           CREDENTIALS_FILE, SCOPES
       )
       creds = flow.run_local_server(port=0)
+      
     # Save the credentials for the next run
     with open(TOKEN_FILE, "w") as token:
       token.write(creds.to_json())

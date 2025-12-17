@@ -1,9 +1,111 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================
+# Sensitive Files (CRITICAL!)
+# ============================================
 .env
 config/credentials.json
 config/token.json
-__pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-.venv/
-venv/
+streamlit_app/data/
+
+# ============================================
+# Streamlit
+# ============================================
+.streamlit/
+
+# ============================================
+# Testing & Development
+# ============================================
+test*.py
+*test.py
+test_*.py
+sandbox/
+scratch/
+playground/
+experiments/
+
+# Specific test files you mentioned
+utils/test.py
+tools/test*.py
+test_auth.py
+test_tools.py
+test_llm.py
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+*.out
+
+# ============================================
+# IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# Project Specific
+# ============================================
+# Extension data (if you built it)
+extension_data/
+
+# Any CSV/Excel test files
+*.csv
+*.xlsx
+*.xls
+
+# Jupyter notebooks (if you created any)
+*.ipynb
+.ipynb_checkpoints/
+
+# Documentation builds
+docs/_build/
+site/

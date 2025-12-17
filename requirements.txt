@@ -6,3 +6,8 @@ langchain-groq==1.0.0
 google-auth-httplib2==0.2.1
 google-auth-oauthlib==1.2.3
 google-api-python-client==2.187.0
+streamlit==1.52.1
+streamlit-authenticator==0.4.3
+extra-streamlit-components==0.1.81
+bcrypt==5.0.0
+pyyaml==6.0.3
